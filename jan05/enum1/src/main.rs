@@ -1,3 +1,13 @@
+enum Option<T> {
+    Some(T),
+    None
+}
+
+enum Result<T,E> {
+    Ok(T),
+    Err(E)
+}
+
 #[derive(Debug)]
 struct Weeks {
     day1:String,
@@ -9,6 +19,7 @@ enum Days {
     Monday(u8,u8),
     Tuesday,
 }
+
 #[derive(Debug)]
 enum Vehicle {
     Toyota(String,u16),
@@ -29,6 +40,8 @@ fn two (data:Days){
     }
 }
 fn main() {
+    
+    
     let week1 = Weeks {
         day1:String::from("Friday"),
         day2:String::from("Saturday"),
