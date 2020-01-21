@@ -10,7 +10,7 @@ fn main() {
     for a in &mut data {
         * a += 5;
     }
-    println!("{:?}",data);
+    println!("{:?} ",data);
     
     data[1]=55;
     println!("{:?}",data);

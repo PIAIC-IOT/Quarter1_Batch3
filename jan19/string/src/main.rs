@@ -1,5 +1,5 @@
 fn main() {
-    let data1 =  "hello";
+    let data1 =  "hello ";
     let data2 =  "Dobrý";
     let data3 =  "السلام عليكم";
     println!("Length of {} is {}",data1,data1.len());

@@ -1,5 +1,5 @@
 use islamabad;
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world! ");
     islamabad::welcome();
 }

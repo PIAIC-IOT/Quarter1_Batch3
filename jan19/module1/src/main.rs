@@ -1,7 +1,7 @@
 mod pk {
     pub mod sindh {
         pub fn education() {
-            println!("We are in pak:sindh:edu");
+            println!("We are in pak:sindh:edu ");
         }
     }
 }

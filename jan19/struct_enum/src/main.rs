@@ -12,7 +12,7 @@ enum Pakistan {
 
 fn main() {
     let student1 = Data {
-        name:String::from("Rehman"),
+        name:String::from("Rehman "),
         status:true,
         fee:3000
     };
